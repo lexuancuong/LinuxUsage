@@ -35,6 +35,25 @@ Then swap ESC and Caplocks in tweak's UI
 
         sudo apt update && sudo apt install fonts-firacode
 
+# Install base environment
+        git clone git@github.com:lexuancuong/dotfiles.git
+        ./install.sh --ubuntu
+        
+# Insall Pip3 
 
+        sudo apt install python3-pip
 
+# Install Plug
+
+        sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       
+# Install YCM
+Do after this guideline
+        
+        https://github.com/ycm-core/YouCompleteMe#linux-64-bit
+        
+# If you are a vietnamease, you could love ibambo (Vietnamese typing tool)
+Work around after this guidline
+        https://github.com/BambooEngine/ibus-bamboo
 
