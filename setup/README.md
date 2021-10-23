@@ -64,3 +64,18 @@ Do after this guideline
 Work around after this guidline
         https://github.com/BambooEngine/ibus-bamboo
 
+# Install docker
+
+        apt install docker.io
+        systemctl enable --now docker
+        systemctl status docker
+        sudo groupadd docker
+        sudo usermod -aG docker $USER
+        docker --version
+
+# Install docker-compose
+
+        apt -y install docker-compose
+
+
+
