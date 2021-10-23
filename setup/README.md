@@ -65,6 +65,7 @@ Work around after this guidline
         https://github.com/BambooEngine/ibus-bamboo
 
 # Install docker
+- For ubuntu 21.04. Maybe it be different in other ubuntu versions
 
         apt install docker.io
         systemctl enable --now docker
