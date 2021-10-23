@@ -31,11 +31,18 @@ Then swap ESC and Caplocks in tweak's UI
 
 - Open Github UI and add that ssh-key into your Github Account
 
+# Generate GCP key then add it into Github account
+Follow this guideline
+        https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+
+
 # Install fira code and set it for terminal's font
 
         sudo apt update && sudo apt install fonts-firacode
 
 # Install base environment
+You must to press enter when it requires.
+
         git clone git@github.com:lexuancuong/dotfiles.git
         ./install.sh --ubuntu
         
