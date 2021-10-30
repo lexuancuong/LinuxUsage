@@ -41,6 +41,10 @@ Follow this guideline
         sudo apt update && sudo apt install fonts-firacode
 
 # Install base environment
+Firstly, install git cli
+
+        sudo apt install git
+        
 You must to press enter when it requires.
 
         git clone git@github.com:lexuancuong/dotfiles.git
