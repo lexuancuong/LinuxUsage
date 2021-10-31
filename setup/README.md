@@ -80,3 +80,10 @@ Work around after this guidline
 
 # Set up VPN for ubuntu
         https://askubuntu.com/questions/920352/vpn-l2tp-ipsec-client-on-ubuntu-16-04-vpn-service-failed-to-start/1144964#1144964
+
+--- 
+Additional information:
+## Install vscode
+
+        sudo snap install code --classic
+        
