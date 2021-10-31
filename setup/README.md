@@ -37,8 +37,8 @@ Follow this guideline
 
 
 # Install fira code and set it for terminal's font
-
-        sudo apt update && sudo apt install fonts-firacode
+- Download the fira code .ttf above
+- Install it in the machine
 
 # Install base environment
 Firstly, install git cli
