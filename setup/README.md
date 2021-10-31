@@ -3,7 +3,8 @@
         sudo apt-get update
 
 
-# Install tweak for ubuntu to swap ESC and Casplock
+# Install 
+## Install tweak for ubuntu to swap ESC and Casplock
 1. Install `universe` repository
         
         sudo add-apt-repository universe
@@ -18,7 +19,7 @@
         
 Then swap ESC and Caplocks in tweak's UI
 
-# Generate SSH key and add it to github
+## Generate SSH key and add it to github
 - Open Terminal.
 - Generate ssh key
 
@@ -31,7 +32,7 @@ Then swap ESC and Caplocks in tweak's UI
 
 - Open Github UI and add that ssh-key into your Github Account
 
-# Generate GCP key then add it into Github account
+## Generate GCP key then add it into Github account
 Follow this guideline
         https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
 
@@ -40,7 +41,7 @@ Follow this guideline
 - Download the fira code .ttf above
 - Install it in the machine
 
-# Install base environment
+## Install base environment
 Firstly, install git cli
 
         sudo apt install git
@@ -50,21 +51,21 @@ You must to press enter when it requires.
         git clone git@github.com:lexuancuong/dotfiles.git
         ./install.sh --ubuntu
         
-# Insall Pip3 
+## Insall Pip3 
 
         sudo apt install python3-pip
 
        
-# Install YCM
+## Install YCM
 Do after this guideline
         
         https://github.com/ycm-core/YouCompleteMe#linux-64-bit
         
-# If you are a vietnamease, you could love ibambo (Vietnamese typing tool)
+## If you are a vietnamease, you could love ibambo (Vietnamese typing tool)
 Work around after this guidline
         https://github.com/BambooEngine/ibus-bamboo
 
-# Install docker
+## Install docker
 - For ubuntu 21.04. Maybe it be different in other ubuntu versions
 
         apt install docker.io
@@ -74,15 +75,15 @@ Work around after this guidline
         sudo usermod -aG docker $USER
         docker --version
 
-# Install docker-compose
+## Install docker-compose
 
         apt -y install docker-compose
 
-# Set up VPN for ubuntu
+## Set up VPN for ubuntu
+Follow this guidline
         https://askubuntu.com/questions/920352/vpn-l2tp-ipsec-client-on-ubuntu-16-04-vpn-service-failed-to-start/1144964#1144964
 
---- 
-Additional information:
+# Additional information:
 ## Install vscode
 
         sudo snap install code --classic
