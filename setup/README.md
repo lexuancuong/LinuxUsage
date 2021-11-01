@@ -71,9 +71,12 @@ Work around after this guidline
         apt install docker.io
         systemctl enable --now docker
         systemctl status docker
-        sudo groupadd docker
-        sudo usermod -aG docker $USER
-        docker --version
+        
+        
+        sudo usermod -aG docker ${USER}
+        su - ${USER}
+        groups
+        sudo usermod -aG docker kane
 
 ## Install docker-compose
 
@@ -87,4 +90,8 @@ Follow this guidline
 ## Install vscode
 
         sudo snap install code --classic
+
+## Install AWS CLI
+
+        sudo apt-get install awscli -y
         
