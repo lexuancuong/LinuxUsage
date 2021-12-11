@@ -1,3 +1,4 @@
+# This guideline show you how to set up a basic Linux environment (like me :< )
 # Preparing
 
         sudo apt-get update
