@@ -4,20 +4,20 @@
         sudo apt-get update
 
 
-# Install 
+# Install
 ## Install tweak for ubuntu to swap ESC and Casplock
 1. Install `universe` repository
-        
+
         sudo add-apt-repository universe
 
 2. Install Tweaks
-        
+
         sudo apt-get install gnome-tweaks
-        
+
 3. Start Gnome Tweak
-        
+
         gnome-tweaks
-        
+
 Then swap ESC and Caplocks in tweak's UI
 
 ## Generate SSH key and add it to github
@@ -25,17 +25,20 @@ Then swap ESC and Caplocks in tweak's UI
 - Generate ssh key
 
         ssh-keygen -t ed25519 -C "your_email@example.com"
-    
+
 - Add ssh key to ssh-keygent
-    
+
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/id_rsa
 
 - Open Github UI and add that ssh-key into your Github Account
 
-## Generate GCP key then add it into Github account
+## Set up to sign commit with GPG
+- Github: Generate GCP key then add it into Github account
 Follow this guideline
         https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+- Gitlab: https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/
+Issue: https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0
 
 
 # Install fira code and set it for terminal's font
@@ -46,22 +49,22 @@ Follow this guideline
 Firstly, install git cli
 
         sudo apt install git
-        
+
 You must to press enter when it requires.
 
         git clone git@github.com:lexuancuong/dotfiles.git
         ./install.sh --ubuntu
-        
-## Insall Pip3 
+
+## Insall Pip3
 
         sudo apt install python3-pip
 
-       
+
 ## Install YCM
 Do after this guideline
-        
+
         https://github.com/ycm-core/YouCompleteMe#linux-64-bit
-        
+
 ## If you are a vietnamease, you could love ibambo (Vietnamese typing tool)
 Work around after this guidline
         https://github.com/BambooEngine/ibus-bamboo
@@ -72,8 +75,8 @@ Work around after this guidline
         apt install docker.io
         systemctl enable --now docker
         systemctl status docker
-        
-        
+
+
         sudo usermod -aG docker ${USER}
         su - ${USER}
         groups
@@ -109,4 +112,4 @@ Follow this guidline
 ## Install AWS CLI
 
         sudo apt-get install awscli -y
-        
+
